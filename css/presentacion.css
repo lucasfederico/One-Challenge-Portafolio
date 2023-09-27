@@ -4,3 +4,10 @@
 .vinculos{
     font-size: 0.9em;
 }
+@media screen and (min-width: 768px) {
+    /* Estilos para tablets */
+    .img-perfil{
+        width: 140px;
+    }
+    /* Agrega otros estilos específicos para tablets aquí */
+  }
