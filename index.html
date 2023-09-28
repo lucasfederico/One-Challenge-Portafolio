@@ -7,6 +7,7 @@
     <link rel="icon" href="https://images.vexels.com/media/users/3/158669/isolated/preview/8715c32a3226480a53ddbbc08e7f83b8-ilustraci-n-de-cuaderno-port-til.png" type="image/png">
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <!-- ICONOS BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- MIS ESTILOS CSS -->
@@ -15,182 +16,224 @@
     <link rel="stylesheet" href="css/presentacion.css">
     <link rel="stylesheet" href="css/sobre-mi.css">
     <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/proyectos.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/footer.css">
 
     <title>Portafolio</title>
 </head>
 <body>
-    <div class="container">
+   
+    
+    <div class="container-lg">
         <header class="row">
             <nav class="col-sm-12 d-flex align-items-center">
-                <img class="" src="/images/logo.png" alt="">
                 <ul class="list-unstyled d-flex justify-content-around align-items-center w-100 m-0">
                     <li><p class="lucas">Lucas Gaspar</p></li>
                     <li><p class="email">gasparlucas8@gmail.com</p></li>
                 </ul>   
             </nav>
         </header>
-        <section class="row presentacion py-4">
+        <section class="row presentacion py-2">
             <div class="col-sm-4 col-md-3 py-2 order-md-2">
-                <img src="images/taro.jpg" alt="" class="img-perfil rounded-circle">
+                <img src="images/profile.jpg" alt="" class="img-perfil rounded-circle">
             </div>
-            <div class="col-sm-12 col-md-9 order-md-1">
+            <div class="container-presentacion col-sm-12 col-md-9 order-md-1">
                     <h2>Hola mi nombre es Lucas y construyo paginas web</h2>
                     <p class="">Estudiante de Análisis de Sistemas & Desarrollador Web Full Stack</p>
                     <ul class="vinculos list-unstyled d-flex justify-content-around py-1">
                         <li><a href="https://github.com/lucasfederico">Github <i class="bi bi-box-arrow-in-up-right"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/lucasfedericogaspar/">Linkedin <i class="bi bi-box-arrow-in-up-right"></i></a></li>
                         <li><a href="mailto:gasparlucas8@gmail.com">Email <i class="bi bi-box-arrow-in-up-right"></i></a></li>
-                        <li><a href="">Curriculum <i class="bi bi-box-arrow-in-up-right"></i></a></li>
+                        <li><a href="https://drive.google.com/drive/folders/1MnfS6Z2DTpeyduXid62pYZsH04HLTYxH?usp=drive_link">Curriculum <i class="bi bi-box-arrow-in-up-right"></i></a></li>
                     </ul>
             </div>
         </section>
-        <section class="sobre-mi row">
-            <div class="col-sm-12">
+        <!-- SOBRE MI -->
+        <section class="sobre-mi row py-4">
+            <div class="col-sm-12 col-lg-8">
                 <h2>Sobre Mi</h2>
-                <p>Actualmente me encuentro cursando el segundo año la tecnicatura en Analista de Sistemas, también estoy en una capacitación sobre Programación Web Full Stack que es brindada por Santander junto a EducaciónIT. Estoy constantemente adquiriendo conocimientos y habilidades para poder insertarme en el mundo laboral IT.</p>
+                <p>Actualmente me encuentro cursando el segundo año la tecnicatura en Analista de Sistemas en el Instituto de Formación Técnica N°18, también estoy en una capacitación sobre Programación Web Full Stack y habilidades interpersonales que es brindada por Santander junto a EducaciónIT y Fundación Pescar. Estoy constantemente adquiriendo conocimientos y habilidades para poder insertarme en el mundo laboral IT.</p>
             </div>
         </section>
+        <!-- SKILLS -->
         <section class="skills row py-2">
             <div class="col-sm-12 text-center">
                 <h2>Skills</h2>
             </div>
-            <div class="col-6 border p-3">
-                <div class="bg-white d-flex flex-column justify-content-center align-items-center py-4">
+            <div class="col-6 col-lg-2 p-3">
+                <div class="container-skill bg-white d-flex flex-column justify-content-center align-items-center ">
                     <img class="skill-img" src="images/skills/html.png" alt="logo html">
                     <p>HTML 5</p>
                 </div>
             </div>
-            <div class="col-6 border p-3">
-                <div class="bg-white d-flex flex-column justify-content-center align-items-center py-4">
+            <div class="col-6 col-lg-2 p-3">
+                <div class="container-skill bg-white d-flex flex-column justify-content-center align-items-center ">
                     <img src="images/skills/css.png" alt="logo html">
                     <p>CSS 3</p>
                 </div>
             </div>
-            <div class="col-6 border p-3">
-                <div class="bg-white d-flex flex-column justify-content-center align-items-center py-4">
+            <div class="col-6 col-lg-2 p-3">
+                <div class="container-skill bg-white d-flex flex-column justify-content-center align-items-center ">
                     <img src="images/skills/js.png" alt="logo html">
                     <p>JavaScript</p>
                 </div>
             </div>
-            <div class="col-6 border p-3">
-                <div class="bg-white d-flex flex-column justify-content-center align-items-center py-4">
+            <div class="col-6 col-lg-2 p-3">
+                <div class="container-skill bg-white d-flex flex-column justify-content-center align-items-center">
                     <img src="images/skills/nodejs.png" alt="logo html">
                     <p>NodeJS</p>
                 </div>
             </div>
+            <div class="col-6 col-lg-2 p-3">
+                <div class="container-skill bg-white d-flex flex-column justify-content-center align-items-center">
+                    <img src="images/skills/react.png" alt="logo html">
+                    <p>React</p>
+                </div>
+            </div>
+            <div class="col-6 col-lg-2 p-3">
+                <div class="container-skill bg-white d-flex flex-column justify-content-center align-items-center">
+                    <img class="sql-icon" src="images/skills/sql-svgrepo-com.svg" alt="logo html">
+                    <p>SQL</p>
+                </div>
+            </div>
         </section>
+        <!-- HOBBIES -->
         <section class="hobbies row py-2">
             <div class="col-sm-12 text-center">
                 <h2>Hobbies</h2>
             </div>
-            <div class="col-6 border p-3">
-                <div class="bg-white d-flex flex-column justify-content-center align-items-center py-4">
+            <div class="col-6 col-lg-3 p-3">
+                <div class="container-hobbie bg-white d-flex flex-column justify-content-center align-items-center">
                     <img class="skill-img" src="images/hobbies/tv.png" alt="logo html">
                     <p>Ver Series</p>
                 </div>
             </div>
-            <div class="col-6 border p-3">
-                <div class="bg-white d-flex flex-column justify-content-center align-items-center py-4">
+            <div class="col-6 col-lg-3 p-3">
+                <div class="container-hobbie bg-white d-flex flex-column justify-content-center align-items-center">
                     <img src="images/hobbies/headphones.png" alt="logo html">
                     <p>Escuchar Musica</p>
                 </div>
             </div>
-            <div class="col-6 border p-3">
-                <div class="bg-white d-flex flex-column justify-content-center align-items-center py-4">
-                    <img src="images/skills/js.png" alt="logo html">
-                    <p>JavaScript</p>
+            <div class="col-6 col-lg-3 p-3">
+                <div class="container-hobbie bg-white d-flex flex-column justify-content-center align-items-center">
+                    <img class="soccer-icon" src="images/hobbies/soccer_ball2.svg" alt="logo html">
+                    <p>Futbol</p>
                 </div>
             </div>
-            <div class="col-6 border p-3">
-                <div class="bg-white d-flex flex-column justify-content-center align-items-center py-4">
-                    <img src="images/skills/nodejs.png" alt="logo html">
-                    <p>NodeJS</p>
+            <div class="col-6 col-lg-3 p-3">
+                <div class="container-hobbie bg-white d-flex flex-column justify-content-center align-items-center">
+                    <img class="runner-icon" src="images/hobbies/runner.svg" alt="logo html">
+                    <p>Running</p>
                 </div>
             </div>
         </section>
+        <!-- FORMACION -->
         <section class="formacion row py-2">
             <div class="col-sm-12 text-center">
                 <h2>Formación Academica</h2>
             </div>
-            <div class="col-sm-12 col-md-4 py-2">
+            <div class="col-sm-12 col-lg-6 py-2">
                 <div class="container-formacion bg-white d-flex flex-column align-items-center justify-content-center">
-                    <img src="/images/formacion/formacion-1.png" alt="">
+                    <img class="ifts18-logo" src="/images/formacion/ifts18.JPG" alt="">
                 </div>
-                <h4>Análisis de datos</h4>
-                <p>2018 - Actualidad</p>
+                <h4>Análisis de Sistemas</h4>
+                <p>2022 - Actualidad</p>
             </div>
-            <div class="col-sm-12 col-md-4 py-2">
+            <div class="col-sm-12 col-lg-6 py-2">
                 <div class="container-formacion bg-white d-flex flex-column align-items-center justify-content-center">
-                    <img src="/images/formacion/formacion-2.png" alt="">
+                    <img class="ifts18-logo" src="/images/formacion/ONE.png" alt="">
                 </div>
-                <h4>Análisis de datos</h4>
-                <p>2018 - Actualidad</p>
+                <h4>Desarrollo Front-End</h4>
+                <p>2023 - Actualidad</p>
             </div>
-            <div class="col-sm-12 col-md-4 py-2">
+            <div class="col-sm-12 col-lg-6 py-2">
                 <div class="container-formacion bg-white d-flex flex-column align-items-center justify-content-center">
-                    <img src="/images/formacion/formacion-3.png" alt="">
+                    <img class="santander-logo" src="/images/formacion/santander.png" alt="">
+                </div>
+                <h4>Desarrollo Web Full Stack</h4>
+                <p>2023 - Actualidad</p>
+            </div>
+            <div class="col-sm-12 col-lg-6 py-2">
+                <div class="container-formacion bg-white d-flex flex-column align-items-center justify-content-center">
+                    <img class="santander-logo" src="/images/formacion/google.png" alt="">
                 </div>
                 <h4>Análisis de datos</h4>
-                <p>2018 - Actualidad</p>
+                <p>2023  - Actualidad</p>
             </div>
         </section>
+        <!-- PROYECTOS -->
         <section class="proyectos row py-2">
-            <div class="col-sm-12 text-center">
+            <div class="col-12 text-center">
                 <h2>Proyectos</h2>
             </div>
-            <div class="col-sm-12 py-4">
-                <div class="text-center">
-                    <img class="px-" src="images/proyectos/p-1.png" alt="">
-                </div>
+            <div class="col-12 col-lg-8 py-4 order-lg-1">
+                    <img class="proyecto-encriptador-img img-fluid" src="images/proyectos/proyecto-encriptador.png" alt="">
+            </div>
+            <div class="container-descripcion col-12 col-lg-4 d-flex flex-column justify-content-center order-lg-2">
                 <h4>Encriptador de Texto</h4>
                 <p>Challenge Oracle</p>
-                <button class="btn btn-outline-primary">Repositorio</button>
-                <button class="btn btn-primary">Ver Demo</button>
-            </div>
-            <div class="col-sm-12 py-4">
-                <div class="text-center">
-                    <img class="px-" src="images/proyectos/p-2.png" alt="">
+                <div>
+                    <button class="btn btn-outline-primary">Repositorio</button>
+                    <button class="btn btn-primary">Ver Demo</button>
                 </div>
+            </div>
+            <div class="col-12 col-lg-8 py-4 order-lg-4">
+                    <img class="proyecto-encriptador-img img-fluid" src="images/proyectos/proyecto-encriptador.png" alt="">
+            </div>
+            <div class="container-descripcion col-12 col-lg-4 d-flex flex-column justify-content-center order-lg-3">
                 <h4>Encriptador de Texto</h4>
                 <p>Challenge Oracle</p>
-                <button class="btn btn-outline-primary">Repositorio</button>
-                <button class="btn btn-primary">Ver Demo</button>
-            </div>
-            <div class="col-sm-12 py-4">
-                <div class="text-center">
-                    <img class="px-" src="images/proyectos/p-3.png" alt="">
+                <div>
+                    <button class="btn btn-outline-primary">Repositorio</button>
+                    <button class="btn btn-primary">Ver Demo</button>
                 </div>
+            </div> 
+        </section>
+        <!-- PROYECTOS 2 -->
+        <section class="proyectos row py-2">
+            <div class="col-12 col-lg-8 py-4 order-lg-1">
+                    <img class="proyecto-encriptador-img img-fluid" src="images/proyectos/proyecto-encriptador.png" alt="">
+            </div>
+            <div class="container-descripcion col-12 col-lg-4 d-flex flex-column justify-content-center order-lg-2">
                 <h4>Encriptador de Texto</h4>
                 <p>Challenge Oracle</p>
-                <button class="btn btn-outline-primary">Repositorio</button>
-                <button class="btn btn-primary">Ver Demo</button>
-            </div>
-            <div class="col-sm-12 py-4">
-                <div class="text-center">
-                    <img class="px-" src="images/proyectos/p-4.png" alt="">
+                <div>
+                    <button class="btn btn-outline-primary">Repositorio</button>
+                    <button class="btn btn-primary">Ver Demo</button>
                 </div>
+            </div>
+            <div class="col-12 col-lg-8 py-4 order-lg-4">
+                    <img class="proyecto-encriptador-img img-fluid" src="images/proyectos/proyecto-encriptador.png" alt="">
+            </div>
+            <div class="container-descripcion col-12 col-lg-4 d-flex flex-column justify-content-center order-lg-3">
                 <h4>Encriptador de Texto</h4>
                 <p>Challenge Oracle</p>
-                <button class="btn btn-outline-primary">Repositorio</button>
-                <button class="btn btn-primary">Ver Demo</button>
-            </div>
+                <div>
+                    <button class="btn btn-outline-primary">Repositorio</button>
+                    <button class="btn btn-primary">Ver Demo</button>
+                </div>
+            </div> 
         </section>
         <section class="formulario row py-4">
-            <div class="col-12">
+            <div class="col-lg-6">
+                <img class="img-fluid telefono-img" src="images/contacto/telefono.png" alt="">
+            </div>
+            <div class="col-12 col-lg-6">
                 <h2>Contacto</h2>
                 <p>¿Quieres contactarme? Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</p>
                 <form action="" class="d-flex flex-column px-4 py-2">
                     <label for="input-name">Nombre</label>
-                    <input type="text">
+                    <input type="text" id="nombre">
                     <label for="input-email">E-mail</label>
-                    <input type="email">
+                    <input type="email" id="email">
                     <label for="input-asunto">Asunto</label>
-                    <input type="text">
+                    <input type="text" id="asunto">
                     <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje" id="" cols="30" rows="4"></textarea>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary" id="enviar">Enviar Mensaje</button>
                 </form>
             </div>
         </section>
@@ -200,5 +243,6 @@
             </div>
         </footer>
     </div>
+    <script src="js/formulario.js"></script>
 </body>
 </html>

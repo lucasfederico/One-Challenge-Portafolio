@@ -9,5 +9,10 @@
     .img-perfil{
         width: 140px;
     }
+    .container-presentacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
     /* Agrega otros estilos específicos para tablets aquí */
   }
